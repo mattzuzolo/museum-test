@@ -10,8 +10,8 @@ let mousePosition = {
 
 var apiEndpointBaseURL = "https://api.harvardartmuseums.org/object";
 var queryString = $.param({
-    apikey: "API_KEY_HERE",
-    person: "Van Gogh",
+    apikey: "API KEY HERE",
+    person: "Joan Miro",
     classification: "Paintings"
 });
 
@@ -34,8 +34,8 @@ $.getJSON(apiEndpointBaseURL + "?" + queryString, function(data) {
 
       myElement.id = 'my-element';
       document.getElementById('my-element').style.position = "fixed";
-      document.getElementById('my-element').style.top = mousePosition.yVal +"px"; //or whatever
-      document.getElementById('my-element').style.left = mousePosition.xVal +"px"; // or whatever
+      document.getElementById('my-element').style.top = mousePosition.yVal +"px";
+      document.getElementById('my-element').style.left = mousePosition.xVal +"px";
 
 })
 
