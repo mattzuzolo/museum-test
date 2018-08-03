@@ -1,3 +1,15 @@
-h1 {
-  color: red;
+#artwork-container {
+  margin: 2.5%;
+}
+
+img {
+  width: 1200px;
+  height: auto;
+}
+
+#my-element {
+  border: 5px solid #39ff14;
+   border-radius: 100px;
+   height:100px;
+   width:100px;
 }
